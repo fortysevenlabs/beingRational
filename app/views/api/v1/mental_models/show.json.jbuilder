@@ -1,0 +1,1 @@
+json.extract! @mental_model, :id, :name, :description

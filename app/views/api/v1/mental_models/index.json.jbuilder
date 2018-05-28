@@ -1,0 +1,1 @@
+json.array! @mental_models, :id, :name, :description
