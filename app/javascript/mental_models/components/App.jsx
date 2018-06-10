@@ -1,8 +1,9 @@
 import React from 'react';
+import MentalModelsDisplay from './MentalModelsDisplay';
 
 const App = (props) => (
   <div>
-    <h1> these are the props </h1>
+    <MentalModelsDisplay />
   </div>
 )
 
