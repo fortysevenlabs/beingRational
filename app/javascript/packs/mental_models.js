@@ -1,1 +1,2 @@
-import 'mental_models'
+// naming standard: camelcase, snakecase, etc?
+import 'MentalModels'

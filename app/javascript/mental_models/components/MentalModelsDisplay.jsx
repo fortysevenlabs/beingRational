@@ -13,7 +13,6 @@ class MentalModelsDisplay extends React.Component {
   fetchMentalModels() {
     axios.get('api/v1/mental_models').then(response => {
       this.setState({mental_models: response.data});
-      console.log(this.state);
     }).catch(error => {
       console.log(error);
     });    
