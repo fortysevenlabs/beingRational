@@ -8,8 +8,15 @@ import Typography from '@material-ui/core/Typography';
 
 class MentalModelCard extends React.Component {
   render() {
+    var cardStyle = {
+      display: 'block',
+      width: '15vw',
+      transitionDuration: '0.3s',
+      height: '15vw'
+    }
+
     return(
-      <Card>
+      <Card style={cardStyle}>
         <CardContent>
           <Typography>
             {this.props.model.name}
